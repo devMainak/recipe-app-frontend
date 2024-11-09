@@ -53,7 +53,7 @@ const Home = () => {
           {filteredRecipes.length > 0 ? (
             filteredRecipes.map((recipe) => (
               <div key={recipe._id} className="col-3">
-                <div className="card">
+                <div className="card mb-3">
                   <img
                     className="card-img-top img-fluid"
                     src={recipe.dishImageUrl}
